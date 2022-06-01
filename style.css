@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(232,180,54);
+    background: linear-gradient(90deg, rgb(232,232,241) 0% rgb(3,255,242) 35% rgb(240, 231, 112) 100%);
+}
+.container{
+    position: relative;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+h1{
+    margin-top: 5%;
+    margin-left: 30%;
+    background: -webkit-linear-gradient(rgb(224, 139, 139) rgb(14, 14, 14));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.added :hover{
+    cursor: pointer;
+}
+.INPUT{
+    width: 102%;
+    padding: -40px;
+    text-align: center;
+}
+.INPUT > button{
+    background: rgb(22,66,121);
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li{
+    width: 28%;
+    margin-top: 33px;
+    padding: 10px;
+    margin-left: 36%;
+    background: -webkit-linear-gradient(rgb(255, 252, 252, 0.822), rgb(255, 241, 160));
+    font-size: 18px;
+    font-weight: 5px;
+    counter-increment: my-counter;
+    color: black;
+}
+ol li::before{
+    content: counter(my-counter);
+    background: #231381;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+li button{
+    position: static;
+    float: right;
+    padding: 5px;
+    font-size: 26px;
+    line-height: 18px;
+    margin-right: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+li button > i{
+    position: fixed;
+}
+ol li button :hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#mytext{
+    width: 50%;
+    padding: 15px;
+}
+h1{  
+    background-color: rgb(22,66,121);
+    margin-left: 590px;
+    bottom: 50px;
+    
+}
+marquee h2{
+    width: 140%;
+    background: #fff;
+    background-color: rgb(246,223,143);    
+}
+   
